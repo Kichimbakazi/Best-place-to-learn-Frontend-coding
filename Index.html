@@ -12,7 +12,7 @@
 <body>
   <section>
     <nav>
-        <img src="./assets/FES.svg" class="Logo" alt="">
+        <img src="./assets/FES.svg" class="logo" alt="">
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#discord">Discord</a></li>
@@ -20,35 +20,60 @@
         </ul>
     </nav>
     <header>
-        <div>
-          <h1>Best place to learn frontend coding</h1>
-          <p>Beginner to advanced courses in less than six months</p>
+        <div class="row">
+            <div>
+            <h1>Best place to learn frontend coding</h1>
+          <p class="subheader">Beginner to advanced courses in less than six months</p>
           <button>Start now </button>
         </div>
-        <figure>
-            <img src="./assets/laptop.png" alt="Home page image">
-           </figure>       
-        </header>
+    <figure>
+        <img src="./assets/laptop.png" alt="Home page image">
+    </figure>       
+     </div>
+   </header>
     </section>
 
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>
+            <div class="row">
+                        
+            <div class="section__description">
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">
+                        Frontend Expert School is a platform dedicated to teaching frontend development skills to individuals of all levels, from beginners to advanced learners. Our mission is to empower aspiring developers with the knowledge and tools they need to succeed in the ever-evolving world of web development.
+                    <p>
                     Frontend Expert School is a platform dedicated to teaching frontend development skills to individuals of all levels, from beginners to advanced learners. Our mission is to empower aspiring developers with the knowledge and tools they need to succeed in the ever-evolving world of web development.
                 </p>
                 <p>
                     We offer a wide range of courses that cover various aspects of frontend development, including HTML, CSS, JavaScript, frameworks like React and Vue.js, and more. Our courses are designed to be hands-on and project-based, allowing students to apply what they learn in real-world scenarios.
                 </p>
                 </div>
-                <figure>
+                <figure class="aboutn__img--wrapper">
                     <img src="./assets/about.jpg" alt="">
                 </figure>
-                </section>
+                </div>
+               </div>
+              </section>
 
         <section id="discord">
             <h2>Discord</h2>
+            <div class="section__description">
+                    <figure class="about__img--wrapper">
+                        <img src="./assets/discord.png" alt="Discord">
+                    </figure>
+                    <div class="section__description--wrapper">
+                     <p class="section__description--para">
+                        Join our vibrant Discord community where you can connect with fellow learners, ask questions, share resources, and get support from experienced developers. Our Discord server is a hub for collaboration and networking, providing a space for students to engage in discussions, participate in coding challenges, and stay updated on the latest frontend development trends and news.
+
+                     </p> 
+                     <p class="section__description--para">
+                        Whether you're a beginner looking for guidance or an experienced developer wanting to share your knowledge, our Discord community is the perfect place to grow and learn together.
+                     </p>
+
+                    </div>
+                </div>
+            </section>
             <figure>
                <img src="./assets/discord.png" alt="Discord">
             </figure>
@@ -66,18 +91,18 @@
                 <span>Email</span>
                 <input type="text" placeholder="jane@example.com">
                 <span>Message</span>
-                <textarea type="text" placeholder="jane@example.com"></textarea>
+                <textarea type="text" placeholder="cool website, lets get connected!></textarea>
             </form>
             </section>
         </main>
             
         <footer>
-            <img src="./assets/FES.svg" alt="">
-            <div>
-                <a href="#about">About</a>
-                <a href="#discord">Discord</a>
-                <a href="#contact">Contact</a>
-                <a href="">Courses</a>
+            <img class="footer__logo" src="./assets/FES.svg" alt="">
+            <div class="footer__links">
+                <a class="footer__link" href="#about">About</a>
+                <a class="footer__link" href="#discord">Discord</a>
+                <a class="footer__link" href="#contact">Contact</a>
+                <a class="footer__link" href="">Courses</a>
             </div>
             <p>Copyright Frontend Simplified</p>
         </footer>
