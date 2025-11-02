@@ -80,8 +80,14 @@ li {
 footer 
 {
     padding: 48px 0;
-  
 }
+  
+
+#about {
+    background-color:  #f8ffdc;  
+   padding: 8px 0;
+}
+
 
 /* 
 
@@ -89,9 +95,10 @@ ABOUT
 
 */
 
+    
+}
 #about {
-    padding: 48px 0;
-    background-color: #f8ffdc;
+    background-color:  #f8ffdc;  
 }
 
 h2 {
@@ -108,22 +115,22 @@ h2 {
 
 .about__img--wrapper {
     width: 40%;
+    padding: 0 24px;
 }
 
 img {
     width: 100%;
 }
 
-.section__description--wrapper
+.section__description--wrapper {
     width: 60%;
-    
 
-.about__img--wrapper {
-    margin-left: 24px;
 }
+.about__img--wrapper,
 .section__description--wrapper {
     padding: 0 24px;
 }
+
 
 .section__description--para {
     font-size: 20px;
@@ -136,6 +143,8 @@ img {
 DISCORD
 
 */
+
+
 #discord {
     background-color:  #cefeff;
 }
@@ -185,7 +194,7 @@ footer {
 }
 
 .footer__links {
-   margin bottom: 32px;
+   margin-bottom: 32px;
 }
 
 .footer__link {
